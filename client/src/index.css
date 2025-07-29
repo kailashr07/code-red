@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(142, 76%, 36%);
+  --secondary-foreground: hsl(60, 9.1%, 97.8%);
+  --accent: hsl(38, 92%, 50%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom styles for VIT StudyBuddy */
+.gradient-primary {
+  background: linear-gradient(135deg, hsl(207, 90%, 54%) 0%, hsl(207, 90%, 44%) 100%);
+}
+
+.gradient-secondary {
+  background: linear-gradient(135deg, hsl(142, 76%, 36%) 0%, hsl(142, 76%, 46%) 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, hsl(38, 92%, 50%) 0%, hsl(28, 92%, 50%) 100%);
+}
+
+.study-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.study-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.status-online {
+  color: hsl(142, 76%, 36%);
+}
+
+.status-away {
+  color: hsl(38, 92%, 50%);
+}
+
+.status-offline {
+  color: hsl(0, 0%, 60%);
+}
+
+.file-icon-pdf {
+  color: hsl(0, 84%, 60%);
+}
+
+.file-icon-doc {
+  color: hsl(207, 90%, 54%);
+}
+
+.file-icon-excel {
+  color: hsl(142, 76%, 36%);
+}
+
+.file-icon-image {
+  color: hsl(267, 84%, 60%);
+}
+
+.timetable-slot {
+  transition: all 0.2s ease-in-out;
+  border: 2px dashed hsl(20, 5.9%, 90%);
+}
+
+.timetable-slot.filled {
+  border: 1px solid transparent;
+  background-color: var(--slot-bg, hsl(207, 90%, 90%));
+  color: var(--slot-text, hsl(207, 90%, 20%));
+}
+
+.timetable-slot:hover {
+  background-color: hsl(60, 4.8%, 97%);
+  border-color: hsl(207, 90%, 70%);
+}
+
+.chatbot-panel {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.connection-badge {
+  position: relative;
+}
+
+.connection-badge::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  background-color: hsl(38, 92%, 50%);
+  border-radius: 50%;
+  border: 2px solid white;
+}
