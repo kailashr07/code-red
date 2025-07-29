@@ -1,100 +1,17 @@
-# 📚 Study Buddy Finder – Never Cram Alone Again!
+🧠 Study Buddy Finder Tired of studying alone? You're not the only one.
 
-> _Built with 💡 at Hackathon: Code Red by Team #1_
+Whether you're preparing for an exam or just trying to keep up with assignments, having the right study partner can make all the difference. Study Buddy Finder is here to connect you with peers who share your academic journey, study style, and schedule.
 
-Have you ever sat staring at your notes wishing you had someone to study with?  
-Worried that you're not revising the right way or at the right time?  
-🎯 **Study Buddy Finder** is here to change the game.
+🚀 Built during Hackathon: Code Red by Team #1, this platform bridges the gap between isolated learners and collaborative success.
 
-This is more than just another student collab tool — it’s your personalized study matchmaker.
+🔑 Key Features 🎯 Course-Based Matching Instantly connect with students enrolled in the same subjects or even specific topics you’re studying.
 
----
+⏰ Availability Synchronization Set your schedule and let the platform match you with buddies who can study when you can.
 
-## 🚀 About the Project
+📚 Study Preference Filters Prefer quiet studying, group discussions, or solving problems together? Filter peers by study style for optimal collaboration.
 
-**Study Buddy Finder** is a web platform that matches students intelligently based on:
+🤖 Built-in AI Assistant Stuck on a concept? Ask the integrated AI chatbot for instant academic help—without leaving the platform.
 
-- 📚 **Registered Courses**
-- ⏰ **Preferred Study Times**
-- 🧠 **Learning Styles** (quiet study, discussion-based, problem-solving, etc.)
+🤝 Learn Better. Together. Enhance your understanding, exchange insights, and tackle tough topics with peers who match your pace and passion.
 
-Our goal? To **eliminate academic loneliness**, boost productivity, and help students reach their academic goals through collaboration.
-
----
-
-## ✨ Key Features
-
-| Feature 🚀                | Description 📖                                                                 |
-|---------------------------|--------------------------------------------------------------------------------|
-| 🎓 Course-Based Matching  | Connect only with those studying the same subjects or upcoming topics.        |
-| ⏳ Availability Sync      | Real-time calendar sync to match free study hours with your buddy’s.          |
-| 🧘 Study Preference Filter | Choose study partners who prefer your learning style (silent, active, etc).   |
-| 🤖 AI Study Assistant     | Get instant clarifications through an integrated AI chatbot on the site.     |
-| 📬 Messaging & Groups     | Private chat and group options to collaborate with multiple peers.            |
-| 📈 Track Progress         | Set goals and mark completed sessions to stay on track and motivated.        |
-
----
-
-## 🛠️ Built With
-
-- **Frontend**: React.js + Tailwind CSS  
-- **Backend**: Node.js + Express.js  
-- **Database**: MongoDB (Mongoose)  
-- **AI Assistant**: OpenAI API  
-- **Authentication**: Firebase Auth  
-- **Deployment**: Vercel / Render / Replit (based on hosting choice)
-
----
-
-## 🧪 How It Works
-
-1. **Sign up/Login** using your academic email.
-2. **Select your courses** and input your available times.
-3. **Set your study style** preferences.
-4. **Get matched** with one or more compatible study partners.
-5. **Start chatting or schedule a session!**
-6. **Use the AI assistant** to clear doubts during study time.
-7. **Track your progress** with mini achievements!
-
----
-
-## 🎥 Demo
-
-> 💡 Coming Soon: [Watch the Demo Video](#)  
-> 📸 Screenshots:  
-> - Home Page  
-> - Matching Results  
-> - Chat Interface with AI Assistant  
-> - Calendar Sync
-
----
-
-## 🔮 Vision for the Future
-
-- 📱 Mobile App version (React Native)
-- 🌍 Global Student Network – cross-university collaboration
-- 🧑‍🏫 Tutor Integration – onboard verified mentors for difficult subjects
-- 🎓 Group Sessions – schedule group study rooms for batch-wise collab
-- 💬 Language Support – auto-translate for cross-region collabs
-
----
-
-## 👥 Meet the Team
-
-> _Team #1 – United by caffeine, memes, and the dream to help students study smarter_
-
-- 🧑‍💻 Dev 1 – Frontend Lead  
-- 🧑‍💻 Dev 2 – Backend & Database  
-- 🧑‍💻 Dev 3 – AI & Integration  
-_(Add real names, GitHub handles, and roles if submitting)_
-
----
-
-## 💭 Why We Built This
-
-We’ve all been there — the late-night cram, the last-minute revision panic, or just the feeling of **being stuck alone**.  
-We built **Study Buddy Finder** because we believe learning is better together.  
-In a world full of distractions, a focused partner can make all the difference.
-
----
-
+Created by: Prodhosh, Kailash, Krishna, and Srisaihariharan Project: Hackathon: Code Red – Team #1
